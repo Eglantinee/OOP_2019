@@ -28,3 +28,9 @@ class Main {
         obj.Calc();
     }
 }
+    //task* Змінити один символ, щоб
+    //вивело 20 "*"
+    //int N = 20;
+      //  for (int i = 0; i < N; N--) {
+        //System.out.println("*");
+        //Remake
