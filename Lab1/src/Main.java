@@ -1,14 +1,14 @@
-class values {
-    private short a = 2;
-    private short b = 4;
-    private int n = 30;
-    private int m = 20;
-    private final int C = 2;
+class Values {
+    private static final short a = 2;
+    private static final short b = 4;
+    private static final int n = 30;
+    private static final int m = 20;
+    private static final int C = 2;
 
-    void Calc() {
+    void calc() {
         double S = 0;
 
-        if (a <= C & C <= n) {
+        if (a <= C && C <= n || b <= 0 && 0 <= m) {
             System.out.println("Error. Zero division");
         }
         else {
@@ -24,8 +24,8 @@ class values {
 
 class Main {
     public static void main(String[] args) {
-        values obj = new values();
-        obj.Calc();
+        Values obj = new Values();
+        obj.calc();
     }
 }
     //task* Змінити один символ, щоб
