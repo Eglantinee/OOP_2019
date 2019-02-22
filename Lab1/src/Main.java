@@ -1,5 +1,5 @@
 class values {
-    private short a = 3;
+    private short a = 2;
     private short b = 4;
     private int n = 30;
     private int m = 20;
@@ -8,7 +8,7 @@ class values {
     void Calc() {
         double S = 0;
 
-        if (a < C & C < n) {
+        if (a <= C & C <= n) {
             System.out.println("Error. Zero division");
         }
         else {
